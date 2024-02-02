@@ -2,12 +2,48 @@ package org.example;
 
 /**
  * @author Nikitina Marfa IBS
+ * @see
  */
 
 import java.util.Scanner;
 
 public class Calculator {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Введите номер задачи (1 - калькулятор," +
+                " 2 - поиск максимального элемента в массиве):  ");
+        int choice = sc.nextInt();
+        switch (choice) {
+            case (1):
+                getCalculations();
+                break;
+            case (2):
+                findMaxByLength();
+                break;
+            default:
+                System.out.println("Ошибка выбора");
+        }
+    }
+
+    public static void findMaxByLength() {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Введите длину масива: ");
+        int arrayLen = sc.nextInt();
+        String [] array = new String[arrayLen];
+        System.out.println("Введите элементы масива: ");
+        for (int i = 0; i < arrayLen; i++) {
+            String element = sc.next();
+            array[i] = element;
+        }
+        String maxWord = array[0];
+        for (String element: array) {
+            if (element.length() > maxWord.length()) {
+                maxWord = element;
+            }
+        }
+        System.out.println("Самый длинный элемент массива: " + maxWord);
+    }
+    public static void getCalculations() {
         Scanner sc = new Scanner(System.in);
         System.out.println("Введите первое число: ");
         double x = sc.nextDouble();
