@@ -15,8 +15,8 @@ public class CandyBox {
         double fullPrice = 0;
         double fullWeight = 0;
         for (Candy sweet: box) {
-            fullPrice += sweet.price;
-            fullWeight += sweet.weight;
+            fullPrice += sweet.getPrice();
+            fullWeight += sweet.getWeight();
             System.out.println(sweet.toString());
         }
         System.out.println("Общий вес подарка: " + fullWeight);
