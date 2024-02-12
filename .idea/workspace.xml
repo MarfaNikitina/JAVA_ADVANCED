@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4148a8e-627b-4acf-a50e-cdc4d77cc945" name="Changes" comment="Add Candy">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CandyBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CandyBox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/sweets/Candy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/sweets/Candy.java" afterDir="false" />
+    <list default="true" id="c4148a8e-627b-4acf-a50e-cdc4d77cc945" name="Changes" comment="Add CandyGetters">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Array.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +41,7 @@
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/User/IdeaProjects/Java-advanced/src/main/java/org/example/Main.java&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.CandyBox">
+  <component name="RunManager" selected="Application.Array">
     <configuration name="Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Array" />
       <module name="Java-advanced" />
@@ -83,8 +83,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CandyBox" />
         <item itemvalue="Application.Array" />
+        <item itemvalue="Application.CandyBox" />
       </list>
     </recent_temporary>
   </component>
@@ -129,7 +129,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707228346479</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add CandyGetters">
+      <option name="closed" value="true" />
+      <created>1707231305441</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1707231305441</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -137,7 +145,8 @@
     <MESSAGE value="Add Array function" />
     <MESSAGE value="Add Array Class" />
     <MESSAGE value="Add Candy" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Candy" />
+    <MESSAGE value="Add CandyGetters" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add CandyGetters" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
