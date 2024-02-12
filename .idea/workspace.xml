@@ -4,9 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4148a8e-627b-4acf-a50e-cdc4d77cc945" name="Changes" comment="Add CandyGetters">
+    <list default="true" id="c4148a8e-627b-4acf-a50e-cdc4d77cc945" name="Changes" comment="Array - v1">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/calculatorOOP/Calculate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/calculatorOOP/arithmeticOperations/Action.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/calculatorOOP/arithmeticOperations/Addition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/calculatorOOP/arithmeticOperations/Division.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/calculatorOOP/arithmeticOperations/Multiply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/calculatorOOP/arithmeticOperations/Substraction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/calculatorOOP/userCommunication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Array.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +23,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -33,21 +41,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/User/IdeaProjects/Java-advanced/src/main/java/org/example/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "onboarding.tips.debug.path": "C:/Users/User/IdeaProjects/Java-advanced/src/main/java/org/example/Main.java"
   }
-}</component>
-  <component name="RunManager" selected="Application.Array">
+}]]></component>
+  <component name="RunManager" selected="Application.userCommunication">
     <configuration name="Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Array" />
       <module name="Java-advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.calculatorOOP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -60,7 +69,7 @@
       <module name="Java-advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.calculatorOOP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,7 +82,20 @@
       <module name="Java-advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.calculatorOOP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="userCommunication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.calculatorOOP.userCommunication" />
+      <module name="Java-advanced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.calculatorOOP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,6 +105,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.userCommunication" />
         <item itemvalue="Application.Array" />
         <item itemvalue="Application.CandyBox" />
       </list>
@@ -137,7 +160,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707231305441</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Array - v1">
+      <option name="closed" value="true" />
+      <created>1707757240371</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1707757240371</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -146,7 +177,8 @@
     <MESSAGE value="Add Array Class" />
     <MESSAGE value="Add Candy" />
     <MESSAGE value="Add CandyGetters" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add CandyGetters" />
+    <MESSAGE value="Array - v1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Array - v1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
