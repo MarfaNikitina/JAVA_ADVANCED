@@ -1,9 +1,9 @@
 package org.example.newCalculator;
 
-public class Calculator {
+public class Calculator <T extends Number> {
     private double x;
     private double y;
-    private String operator;
+    private double operator;
     private double result;
 
     public void setX(double x) {
@@ -14,8 +14,8 @@ public class Calculator {
         this.y = y;
     }
 
-    public void setOperator(String operator) {
-        if (validateOperator(operator)) {
+    public void setOperator(double operator) {
+        if (operator <= 4 && operator >= 1) {
             this.operator = operator;
         } else {
             System.out.println("Ошибка оператора");
@@ -50,17 +50,17 @@ public class Calculator {
     }
 
     public double getResult() {
-        switch (this.operator) {
-            case "+":
+        switch ((int) this.operator) {
+            case 1:
                 result = getSum(this.x, this.y);
                 break;
-            case "-":
+            case 2:
                 result = getSubtraction(this.x, this.y);
                 break;
-            case "*":
+            case 3:
                 result = getMultiply(this.x, this.y);
                 break;
-            case "/":
+            case 4:
                 result = getDivision(this.x, this.y);
                 break;
         }

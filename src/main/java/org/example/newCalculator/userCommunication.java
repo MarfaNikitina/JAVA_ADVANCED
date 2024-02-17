@@ -11,9 +11,9 @@ public class userCommunication {
             double firstNumber = sc.nextDouble();
             System.out.println("Введите второе число: ");
             double secondNumber = sc.nextDouble();
-            System.out.println("Введите оператор (+,-,*,/): ");
-            String operator = sc.next();
-            Calculator calculator = new Calculator();
+            System.out.println("Введите код оператора - 1(+),2(-),3(*),4(/)): ");
+            int operator = sc.nextInt();
+            Calculator calculator = new Calculator<Double>();
             calculator.setX(firstNumber);
             calculator.setY(secondNumber);
             calculator.setOperator(operator);
