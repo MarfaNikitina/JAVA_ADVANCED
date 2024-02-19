@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4148a8e-627b-4acf-a50e-cdc4d77cc945" name="Changes" comment="Calculator OOPv2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/fileReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/file.txt" afterDir="false" />
+    <list default="true" id="c4148a8e-627b-4acf-a50e-cdc4d77cc945" name="Changes" comment="add FileReader">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/newCalculator/CalculatorStringOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/newCalculator/Communication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/newCalculator/NoSuchOperatorException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/newCalculator/ZeroDivisionException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/newCalculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/newCalculator/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/newCalculator/userCommunication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/newCalculator/userCommunication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/newCalculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/calculatorOOP/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/newCalculator/userCommunication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/sweets/userCommunication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,20 +53,7 @@
       <recent name="org.example.newCalculator" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.fileReader">
-    <configuration name="Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Array" />
-      <module name="Java-advanced" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.calculatorOOP.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Communication">
     <configuration name="Calculator" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Calculator" />
       <module name="Java-advanced" />
@@ -78,8 +67,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CandyBox" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.CandyBox" />
+    <configuration name="CalculatorStringOperator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.newCalculator.CalculatorStringOperator" />
+      <module name="Java-advanced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.calculatorOOP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Communication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.newCalculator.Communication" />
       <module name="Java-advanced" />
       <extension name="coverage">
         <pattern>
@@ -104,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.newCalculator.userCommunication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.newCalculator.userCommunication" />
+    <configuration name="org.example.sweets.userCommunication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.sweets.userCommunication" />
       <module name="Java-advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.newCalculator.*" />
+          <option name="PATTERN" value="org.example.calculatorOOP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Communication" />
+        <item itemvalue="Application.CalculatorStringOperator" />
+        <item itemvalue="Application.org.example.sweets.userCommunication" />
         <item itemvalue="Application.fileReader" />
-        <item itemvalue="Application.org.example.newCalculator.userCommunication" />
         <item itemvalue="Application.userCommunication" />
-        <item itemvalue="Application.Array" />
-        <item itemvalue="Application.CandyBox" />
       </list>
     </recent_temporary>
   </component>
@@ -213,8 +215,27 @@
       <option name="project" value="LOCAL" />
       <updated>1708000187571</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add FileReader">
+      <option name="closed" value="true" />
+      <created>1708183136620</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1708183136620</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add Calculator.java" />
@@ -225,7 +246,8 @@
     <MESSAGE value="Array - v1" />
     <MESSAGE value="Calculator OOP" />
     <MESSAGE value="Calculator OOPv2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Calculator OOPv2" />
+    <MESSAGE value="add FileReader" />
+    <option name="LAST_COMMIT_MESSAGE" value="add FileReader" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

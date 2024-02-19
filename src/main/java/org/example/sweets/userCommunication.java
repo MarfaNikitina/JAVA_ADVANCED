@@ -1,10 +1,14 @@
-package org.example.newCalculator;
+package org.example.sweets;
+
+import org.example.calculatorOOP.Calculator;
 
 import java.io.IOException;
+//package org.example.newCalculator;
+
 import java.util.Scanner;
 
 public class userCommunication {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws NullPointerException,IOException {
         Scanner sc = new Scanner(System.in);
         try {
             System.out.println("Введите первое число: ");
@@ -19,7 +23,10 @@ public class userCommunication {
             calculator.setOperator(operator);
             double result = calculator.getResult();
             System.out.printf("%.4f", result);
-        } catch (Exception e) {
+        } catch (NullPointerException e) {
+            System.out.println("Деление на 0 запрещено");
+            e.getCause();
+        } catch (Exception e1) {
             System.out.println("Вы ввели неверные данные, внимательно прочитайте условия и начните заново");
         }
         sc.close();

@@ -1,9 +1,9 @@
 package org.example.newCalculator;
 
-public class Calculator <T extends Number> {
+public class CalculatorStringOperator {
     private double x;
     private double y;
-    private double operator;
+    private String operator;
     private double result;
 
     public void setX(double x) {
@@ -14,11 +14,11 @@ public class Calculator <T extends Number> {
         this.y = y;
     }
 
-    public void setOperator(double operator) {
-        if (operator <= 4 && operator >= 1) {
+    public void setOperator(String operator) throws NoSuchOperatorException {
+        if (operator.equals("+")||operator.equals("-")||operator.equals("/")||operator.equals("*")) {
             this.operator = operator;
         } else {
-            System.out.println("Ошибка оператора");
+            throw new NoSuchOperatorException(operator);
         }
     }
 
@@ -39,29 +39,28 @@ public class Calculator <T extends Number> {
         return result;
     }
     public static double getDivision(double x, double y) {
-        double result;
-        result = x / y;
-        return result;
-    }
-    private static boolean validateOperator(String operator) {
-        boolean result;
-        result = operator.equals("+")||operator.equals("-")||operator.equals("/")||operator.equals("*");
-        return result;
+            double result;
+            result = x / y;
+            return result;
     }
 
-    public double getResult() {
-        switch ((int) this.operator) {
-            case 1:
+    public double getResult() throws ZeroDivisionException {
+        switch (this.operator) {
+            case "+":
                 result = getSum(this.x, this.y);
                 break;
-            case 2:
+            case "-":
                 result = getSubtraction(this.x, this.y);
                 break;
-            case 3:
+            case "*":
                 result = getMultiply(this.x, this.y);
                 break;
-            case 4:
-                result = getDivision(this.x, this.y);
+            case "/":
+                if (this.y == 0) {
+                    throw new ZeroDivisionException();
+                } else {
+                    result = getDivision(this.x, this.y);
+                }
                 break;
         }
         return result;
