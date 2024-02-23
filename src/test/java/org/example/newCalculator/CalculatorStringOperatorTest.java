@@ -14,7 +14,7 @@ public class CalculatorStringOperatorTest {
     }
 
     @Test(expected=NoSuchOperatorException.class)
-    public void testBAdOperator() throws NoSuchOperatorException, ZeroDivisionException {
+    public void testBAdOperator() throws NoSuchOperatorException {
         CalculatorStringOperator calc = new CalculatorStringOperator();
         calc.setX(6.3);
         calc.setY(3.7);
