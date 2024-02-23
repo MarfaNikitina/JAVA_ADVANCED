@@ -22,23 +22,23 @@ public class CalculatorStringOperator {
         }
     }
 
-    public static double getSum(double x, double y) {
+    public double getSum(double x, double y) {
         double sum;
         sum = x + y;
         return sum;
     }
 
-    public static double getSubtraction(double x, double y) {
+    public double getSubtraction(double x, double y) {
         double sub;
         sub = x - y;
         return sub;
     }
-    public static double getMultiply(double x, double y) {
+    public double getMultiply(double x, double y) {
         double result;
         result = x * y;
         return result;
     }
-    public static double getDivision(double x, double y) {
+    public double getDivision(double x, double y) {
             double result;
             result = x / y;
             return result;
